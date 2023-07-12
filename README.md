@@ -1,6 +1,6 @@
 # Project 'Pizza'
 ## Used technologies:
-### ReactJS 18 \
+### ReactJS 18 
 ### SASS/SCSS 
 
 ## Implemented:

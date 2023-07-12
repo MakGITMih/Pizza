@@ -1,7 +1,7 @@
 # Project 'Pizza'
 ## Used technologies:
-ReactJS 18
-SASS/SCSS
+ReactJS 18 \
+SASS/SCSS \
 
 ## Implemented:
 # Getting Started with Create React App

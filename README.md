@@ -1,3 +1,14 @@
+# Project 'Pizza'
+
+## Used Technologies:
+### React JS 18
+Props\
+React Hooks(useState)\ 
+### SASS/SCSS
+
+## Implemented:
+### Functional Components
+### Product card 
 
 # Getting Started with Create React App
 

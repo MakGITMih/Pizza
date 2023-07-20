@@ -12,22 +12,24 @@ import './scss/app.scss';
 
 
 function App() {
+
+  
+ 
   return (
     <>
-      <div class="wrapper">
+      <div className="wrapper">
         <Header></Header>
-        <div class="content">
-          <div class="container">
-            <div class="content__top">
+        <div className="content">
+          <div className="container">
+            <div className="content__top">
               <Categories></Categories>
               <Sort></Sort>
             </div>
-            <h2 class="content__title">Все пиццы</h2>
-            <div class="content__items">
-              <PizzaBlock></PizzaBlock>
-              <PizzaBlock></PizzaBlock>
-              <PizzaBlock></PizzaBlock>
-              <PizzaBlock></PizzaBlock>          
+            <h2 className="content__title">Все пиццы</h2>
+            <div className="content__items">
+              <PizzaBlock title='Мексиканская' price=' 500'></PizzaBlock>
+              <PizzaBlock title='Сербская' price=' 600'></PizzaBlock>
+              <PizzaBlock title='Афганская' price=' 700'></PizzaBlock>                  
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@
 Props\
 React Hooks(useState)\ 
 ### SASS/SCSS
+BEM methodology
 
 ## Implemented:
 ### Functional Components

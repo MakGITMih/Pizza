@@ -12,16 +12,20 @@ function Categories (){
     };
  
     
-    return (
-      <>
-        <div className="categories">
-          <ul>{categories.map((item, index) => <li onClick={()=> onClickCategoru(index)} className={ activeIndex === index ? "active" : ''}>{item}</li>)}
-          </ul>
-        </div>
-      </>
-    )
-  }
+  return (
+    <>
+      <div className="categories">
+        <ul>{categories.map((item, index) =>
+          <li
+            key={index}
+            onClick={() => onClickCategoru(index)} className={activeIndex === index ? "active" : ''}>{item}
+          </li>)}
+        </ul>
+      </div>
+    </>
+  )
+}
 
-  export default Categories;
+export default Categories;
 
   

@@ -3,13 +3,17 @@
 ## Used Technologies:
 ### React JS 18
 Props\
-React Hooks(useState)\ 
+React Hooks(useState,useEffect) 
 ### SASS/SCSS
 BEM methodology
+### API
+Fetch
+
 
 ## Implemented:
 ### Functional Components
 ### Product card 
+### Pop-Up
 
 # Getting Started with Create React App
 

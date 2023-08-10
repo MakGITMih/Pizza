@@ -2,12 +2,12 @@ import Header from './components/Header';
 import Categories from './components/Categories';
 import Sort from './components/Sort';
 import PizzaBlock from './components/PizzaBlock';
+import Skeleton from './components/PizzaBlock/Skeleton.jsx';
 import './scss/app.scss';
-// import pizzas from './components/Assets/pizzas.json'
 import { useEffect, useState } from 'react';
 
 
-// const pizzas = []
+
 
 
 
@@ -15,12 +15,15 @@ import { useEffect, useState } from 'react';
 function App() {
 
   const [items,setItems] = useState ([]);
+  const [isLoading,setIsLoading] = useState (true);
+
+
 
   useEffect(()=> {
     fetch ( 'https://64cdfe590c01d81da3ee6b14.mockapi.io/items' )
       .then ((res) => res.json())
-      .then ((arr) => {
-        setItems (arr);
+      .then ((res) => {
+        setItems (res);
       })
   },[]);
 

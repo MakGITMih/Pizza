@@ -14,6 +14,7 @@ Fetch
 ### Functional Components
 ### Product card 
 ### Pop-Up
+### React Content Loader
 
 # Getting Started with Create React App
 

@@ -3,7 +3,8 @@
 ## Used Technologies:
 ### React JS 18
 Props\
-React Hooks(useState,useEffect) 
+React Hooks(useState,useEffect)\
+React Router 
 ### SASS/SCSS
 BEM methodology
 ### API
@@ -15,6 +16,7 @@ Fetch
 ### Product card 
 ### Pop-Up
 ### React Content Loader
+### Conditional rendering
 
 # Getting Started with Create React App
 

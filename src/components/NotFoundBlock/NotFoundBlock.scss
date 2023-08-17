@@ -1,0 +1,13 @@
+.notfound {
+    text-align: center;
+    padding: 100px;
+
+    :first-child {
+        font-size: 180px;
+    }
+
+    
+    :last-child {
+        font-size: 30px;
+    }
+}

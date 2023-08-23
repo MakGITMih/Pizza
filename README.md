@@ -6,7 +6,6 @@ Props\
 React Hooks(useState,useEffect)\
 React Router 
 ### SASS/SCSS
-BEM methodology
 ### API
 Fetch
 
@@ -17,6 +16,9 @@ Fetch
 ### Pop-Up
 ### React Content Loader
 ### Conditional rendering
+### BEM methodology
+### Responsive layout
+### Media queries
 
 # Getting Started with Create React App
 

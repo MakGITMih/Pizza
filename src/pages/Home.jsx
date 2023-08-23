@@ -22,11 +22,13 @@ function Home (){
                 setItems(res);
                 setIsLoading(false);
             })
+            window.scrollTo(0,0);
     }, []);
 
     
   return (
     <>
+    <div className="container">
          <div className="content__top">
               <Categories></Categories>
               <Sort></Sort>
@@ -43,6 +45,7 @@ function Home (){
                   ></PizzaBlock> ))
               } */}
             </div>
+            </div>    
     </>
   )
 }

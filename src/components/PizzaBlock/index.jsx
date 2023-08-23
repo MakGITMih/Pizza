@@ -14,6 +14,7 @@ function PizzaBlock({ title, price, imageUrl, sizes, types,}) {
 
   return (
     <>
+    <div className="pizza-block-wrapper">
       <div className="pizza-block">
         <img
           className="pizza-block__image"
@@ -65,6 +66,7 @@ function PizzaBlock({ title, price, imageUrl, sizes, types,}) {
             <i>0</i>
           </button>
         </div>
+      </div>
       </div>
     </>
   )
